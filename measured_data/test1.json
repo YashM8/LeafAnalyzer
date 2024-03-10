@@ -1,0 +1,717 @@
+{
+   "metadata":{
+
+   },
+   "observations":{
+      "default_1":{
+         "in_bounds":{
+            "trait":"whether the plant goes out of bounds ",
+            "method":"plantcv.plantcv.within_frame",
+            "scale":"none",
+            "datatype":"<class 'bool'>",
+            "value":false,
+            "label":"none"
+         },
+         "area":{
+            "trait":"area",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"pixels",
+            "datatype":"<class 'int'>",
+            "value":255984.0,
+            "label":"pixels"
+         },
+         "convex_hull_area":{
+            "trait":"convex hull area",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"pixels",
+            "datatype":"<class 'int'>",
+            "value":320892.0,
+            "label":"pixels"
+         },
+         "solidity":{
+            "trait":"solidity",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"none",
+            "datatype":"<class 'float'>",
+            "value":0.7977263378332897,
+            "label":"none"
+         },
+         "perimeter":{
+            "trait":"perimeter",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"pixels",
+            "datatype":"<class 'int'>",
+            "value":2543.9221271276474,
+            "label":"pixels"
+         },
+         "width":{
+            "trait":"width",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"pixels",
+            "datatype":"<class 'int'>",
+            "value":719,
+            "label":"pixels"
+         },
+         "height":{
+            "trait":"height",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"pixels",
+            "datatype":"<class 'int'>",
+            "value":599,
+            "label":"pixels"
+         },
+         "longest_path":{
+            "trait":"longest path",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"pixels",
+            "datatype":"<class 'int'>",
+            "value":4427,
+            "label":"pixels"
+         },
+         "center_of_mass":{
+            "trait":"center of mass",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"none",
+            "datatype":"<class 'tuple'>",
+            "value":[
+               377.0269079317457,
+               343.634649040565
+            ],
+            "label":[
+               "x",
+               "y"
+            ]
+         },
+         "convex_hull_vertices":{
+            "trait":"convex hull vertices",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"none",
+            "datatype":"<class 'int'>",
+            "value":35,
+            "label":"none"
+         },
+         "object_in_frame":{
+            "trait":"object in frame",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"none",
+            "datatype":"<class 'bool'>",
+            "value":false,
+            "label":"none"
+         },
+         "ellipse_center":{
+            "trait":"ellipse center",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"none",
+            "datatype":"<class 'tuple'>",
+            "value":[
+               380.23779296875,
+               332.0113525390625
+            ],
+            "label":[
+               "x",
+               "y"
+            ]
+         },
+         "ellipse_major_axis":{
+            "trait":"ellipse major axis length",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"pixels",
+            "datatype":"<class 'int'>",
+            "value":645.9017944335938,
+            "label":"pixels"
+         },
+         "ellipse_minor_axis":{
+            "trait":"ellipse minor axis length",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"pixels",
+            "datatype":"<class 'int'>",
+            "value":566.8489990234375,
+            "label":"pixels"
+         },
+         "ellipse_angle":{
+            "trait":"ellipse major axis angle",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"degrees",
+            "datatype":"<class 'float'>",
+            "value":85.4129409790039,
+            "label":"degrees"
+         },
+         "ellipse_eccentricity":{
+            "trait":"ellipse eccentricity",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"none",
+            "datatype":"<class 'float'>",
+            "value":0.4793777895500462,
+            "label":"none"
+         }
+      },
+      "default_2":{
+         "in_bounds":{
+            "trait":"whether the plant goes out of bounds ",
+            "method":"plantcv.plantcv.within_frame",
+            "scale":"none",
+            "datatype":"<class 'bool'>",
+            "value":true,
+            "label":"none"
+         },
+         "area":{
+            "trait":"area",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"pixels",
+            "datatype":"<class 'int'>",
+            "value":176598.0,
+            "label":"pixels"
+         },
+         "convex_hull_area":{
+            "trait":"convex hull area",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"pixels",
+            "datatype":"<class 'int'>",
+            "value":207287.5,
+            "label":"pixels"
+         },
+         "solidity":{
+            "trait":"solidity",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"none",
+            "datatype":"<class 'float'>",
+            "value":0.8519471748175843,
+            "label":"none"
+         },
+         "perimeter":{
+            "trait":"perimeter",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"pixels",
+            "datatype":"<class 'int'>",
+            "value":1923.831726551056,
+            "label":"pixels"
+         },
+         "width":{
+            "trait":"width",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"pixels",
+            "datatype":"<class 'int'>",
+            "value":536,
+            "label":"pixels"
+         },
+         "height":{
+            "trait":"height",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"pixels",
+            "datatype":"<class 'int'>",
+            "value":519,
+            "label":"pixels"
+         },
+         "longest_path":{
+            "trait":"longest path",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"pixels",
+            "datatype":"<class 'int'>",
+            "value":3916,
+            "label":"pixels"
+         },
+         "center_of_mass":{
+            "trait":"center of mass",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"none",
+            "datatype":"<class 'tuple'>",
+            "value":[
+               1022.5372937405859,
+               300.57428736452283
+            ],
+            "label":[
+               "x",
+               "y"
+            ]
+         },
+         "convex_hull_vertices":{
+            "trait":"convex hull vertices",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"none",
+            "datatype":"<class 'int'>",
+            "value":40,
+            "label":"none"
+         },
+         "object_in_frame":{
+            "trait":"object in frame",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"none",
+            "datatype":"<class 'bool'>",
+            "value":true,
+            "label":"none"
+         },
+         "ellipse_center":{
+            "trait":"ellipse center",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"none",
+            "datatype":"<class 'tuple'>",
+            "value":[
+               1027.5810546875,
+               298.5315246582031
+            ],
+            "label":[
+               "x",
+               "y"
+            ]
+         },
+         "ellipse_major_axis":{
+            "trait":"ellipse major axis length",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"pixels",
+            "datatype":"<class 'int'>",
+            "value":518.5206909179688,
+            "label":"pixels"
+         },
+         "ellipse_minor_axis":{
+            "trait":"ellipse minor axis length",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"pixels",
+            "datatype":"<class 'int'>",
+            "value":470.352294921875,
+            "label":"pixels"
+         },
+         "ellipse_angle":{
+            "trait":"ellipse major axis angle",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"degrees",
+            "datatype":"<class 'float'>",
+            "value":134.7421875,
+            "label":"degrees"
+         },
+         "ellipse_eccentricity":{
+            "trait":"ellipse eccentricity",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"none",
+            "datatype":"<class 'float'>",
+            "value":0.4209061367205,
+            "label":"none"
+         }
+      },
+      "default_3":{
+         "in_bounds":{
+            "trait":"whether the plant goes out of bounds ",
+            "method":"plantcv.plantcv.within_frame",
+            "scale":"none",
+            "datatype":"<class 'bool'>",
+            "value":true,
+            "label":"none"
+         },
+         "area":{
+            "trait":"area",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"pixels",
+            "datatype":"<class 'int'>",
+            "value":110943.0,
+            "label":"pixels"
+         },
+         "convex_hull_area":{
+            "trait":"convex hull area",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"pixels",
+            "datatype":"<class 'int'>",
+            "value":112716.0,
+            "label":"pixels"
+         },
+         "solidity":{
+            "trait":"solidity",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"none",
+            "datatype":"<class 'float'>",
+            "value":0.9842702012136697,
+            "label":"none"
+         },
+         "perimeter":{
+            "trait":"perimeter",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"pixels",
+            "datatype":"<class 'int'>",
+            "value":1645.6092952489853,
+            "label":"pixels"
+         },
+         "width":{
+            "trait":"width",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"pixels",
+            "datatype":"<class 'int'>",
+            "value":233,
+            "label":"pixels"
+         },
+         "height":{
+            "trait":"height",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"pixels",
+            "datatype":"<class 'int'>",
+            "value":719,
+            "label":"pixels"
+         },
+         "longest_path":{
+            "trait":"longest path",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"pixels",
+            "datatype":"<class 'int'>",
+            "value":4689,
+            "label":"pixels"
+         },
+         "center_of_mass":{
+            "trait":"center of mass",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"none",
+            "datatype":"<class 'tuple'>",
+            "value":[
+               120.42471359166419,
+               878.0114022516067
+            ],
+            "label":[
+               "x",
+               "y"
+            ]
+         },
+         "convex_hull_vertices":{
+            "trait":"convex hull vertices",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"none",
+            "datatype":"<class 'int'>",
+            "value":65,
+            "label":"none"
+         },
+         "object_in_frame":{
+            "trait":"object in frame",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"none",
+            "datatype":"<class 'bool'>",
+            "value":true,
+            "label":"none"
+         },
+         "ellipse_center":{
+            "trait":"ellipse center",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"none",
+            "datatype":"<class 'tuple'>",
+            "value":[
+               121.6904525756836,
+               871.234619140625
+            ],
+            "label":[
+               "x",
+               "y"
+            ]
+         },
+         "ellipse_major_axis":{
+            "trait":"ellipse major axis length",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"pixels",
+            "datatype":"<class 'int'>",
+            "value":660.0031127929688,
+            "label":"pixels"
+         },
+         "ellipse_minor_axis":{
+            "trait":"ellipse minor axis length",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"pixels",
+            "datatype":"<class 'int'>",
+            "value":221.79248046875,
+            "label":"pixels"
+         },
+         "ellipse_angle":{
+            "trait":"ellipse major axis angle",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"degrees",
+            "datatype":"<class 'float'>",
+            "value":179.24807739257812,
+            "label":"degrees"
+         },
+         "ellipse_eccentricity":{
+            "trait":"ellipse eccentricity",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"none",
+            "datatype":"<class 'float'>",
+            "value":0.9418449934965832,
+            "label":"none"
+         }
+      },
+      "default_4":{
+         "in_bounds":{
+            "trait":"whether the plant goes out of bounds ",
+            "method":"plantcv.plantcv.within_frame",
+            "scale":"none",
+            "datatype":"<class 'bool'>",
+            "value":true,
+            "label":"none"
+         },
+         "area":{
+            "trait":"area",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"pixels",
+            "datatype":"<class 'int'>",
+            "value":232227.0,
+            "label":"pixels"
+         },
+         "convex_hull_area":{
+            "trait":"convex hull area",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"pixels",
+            "datatype":"<class 'int'>",
+            "value":282778.0,
+            "label":"pixels"
+         },
+         "solidity":{
+            "trait":"solidity",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"none",
+            "datatype":"<class 'float'>",
+            "value":0.8212343251596659,
+            "label":"none"
+         },
+         "perimeter":{
+            "trait":"perimeter",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"pixels",
+            "datatype":"<class 'int'>",
+            "value":2317.530210852623,
+            "label":"pixels"
+         },
+         "width":{
+            "trait":"width",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"pixels",
+            "datatype":"<class 'int'>",
+            "value":569,
+            "label":"pixels"
+         },
+         "height":{
+            "trait":"height",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"pixels",
+            "datatype":"<class 'int'>",
+            "value":658,
+            "label":"pixels"
+         },
+         "longest_path":{
+            "trait":"longest path",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"pixels",
+            "datatype":"<class 'int'>",
+            "value":4140,
+            "label":"pixels"
+         },
+         "center_of_mass":{
+            "trait":"center of mass",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"none",
+            "datatype":"<class 'tuple'>",
+            "value":[
+               981.0862819568785,
+               865.9365017848916
+            ],
+            "label":[
+               "x",
+               "y"
+            ]
+         },
+         "convex_hull_vertices":{
+            "trait":"convex hull vertices",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"none",
+            "datatype":"<class 'int'>",
+            "value":31,
+            "label":"none"
+         },
+         "object_in_frame":{
+            "trait":"object in frame",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"none",
+            "datatype":"<class 'bool'>",
+            "value":true,
+            "label":"none"
+         },
+         "ellipse_center":{
+            "trait":"ellipse center",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"none",
+            "datatype":"<class 'tuple'>",
+            "value":[
+               988.801513671875,
+               863.5193481445312
+            ],
+            "label":[
+               "x",
+               "y"
+            ]
+         },
+         "ellipse_major_axis":{
+            "trait":"ellipse major axis length",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"pixels",
+            "datatype":"<class 'int'>",
+            "value":588.4366455078125,
+            "label":"pixels"
+         },
+         "ellipse_minor_axis":{
+            "trait":"ellipse minor axis length",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"pixels",
+            "datatype":"<class 'int'>",
+            "value":549.7329711914062,
+            "label":"pixels"
+         },
+         "ellipse_angle":{
+            "trait":"ellipse major axis angle",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"degrees",
+            "datatype":"<class 'float'>",
+            "value":166.8177947998047,
+            "label":"degrees"
+         },
+         "ellipse_eccentricity":{
+            "trait":"ellipse eccentricity",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"none",
+            "datatype":"<class 'float'>",
+            "value":0.3566809225105441,
+            "label":"none"
+         }
+      },
+      "default_5":{
+         "in_bounds":{
+            "trait":"whether the plant goes out of bounds ",
+            "method":"plantcv.plantcv.within_frame",
+            "scale":"none",
+            "datatype":"<class 'bool'>",
+            "value":true,
+            "label":"none"
+         },
+         "area":{
+            "trait":"area",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"pixels",
+            "datatype":"<class 'int'>",
+            "value":274081.0,
+            "label":"pixels"
+         },
+         "convex_hull_area":{
+            "trait":"convex hull area",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"pixels",
+            "datatype":"<class 'int'>",
+            "value":322092.0,
+            "label":"pixels"
+         },
+         "solidity":{
+            "trait":"solidity",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"none",
+            "datatype":"<class 'float'>",
+            "value":0.8509401040696447,
+            "label":"none"
+         },
+         "perimeter":{
+            "trait":"perimeter",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"pixels",
+            "datatype":"<class 'int'>",
+            "value":3307.967933177948,
+            "label":"pixels"
+         },
+         "width":{
+            "trait":"width",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"pixels",
+            "datatype":"<class 'int'>",
+            "value":782,
+            "label":"pixels"
+         },
+         "height":{
+            "trait":"height",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"pixels",
+            "datatype":"<class 'int'>",
+            "value":587,
+            "label":"pixels"
+         },
+         "longest_path":{
+            "trait":"longest path",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"pixels",
+            "datatype":"<class 'int'>",
+            "value":5551,
+            "label":"pixels"
+         },
+         "center_of_mass":{
+            "trait":"center of mass",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"none",
+            "datatype":"<class 'tuple'>",
+            "value":[
+               550.1420893823358,
+               1215.5469368544336
+            ],
+            "label":[
+               "x",
+               "y"
+            ]
+         },
+         "convex_hull_vertices":{
+            "trait":"convex hull vertices",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"none",
+            "datatype":"<class 'int'>",
+            "value":50,
+            "label":"none"
+         },
+         "object_in_frame":{
+            "trait":"object in frame",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"none",
+            "datatype":"<class 'bool'>",
+            "value":true,
+            "label":"none"
+         },
+         "ellipse_center":{
+            "trait":"ellipse center",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"none",
+            "datatype":"<class 'tuple'>",
+            "value":[
+               551.3770141601562,
+               1209.3204345703125
+            ],
+            "label":[
+               "x",
+               "y"
+            ]
+         },
+         "ellipse_major_axis":{
+            "trait":"ellipse major axis length",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"pixels",
+            "datatype":"<class 'int'>",
+            "value":758.3735961914062,
+            "label":"pixels"
+         },
+         "ellipse_minor_axis":{
+            "trait":"ellipse minor axis length",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"pixels",
+            "datatype":"<class 'int'>",
+            "value":512.5823974609375,
+            "label":"pixels"
+         },
+         "ellipse_angle":{
+            "trait":"ellipse major axis angle",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"degrees",
+            "datatype":"<class 'float'>",
+            "value":100.93299865722656,
+            "label":"degrees"
+         },
+         "ellipse_eccentricity":{
+            "trait":"ellipse eccentricity",
+            "method":"plantcv.plantcv.analyze.size",
+            "scale":"none",
+            "datatype":"<class 'float'>",
+            "value":0.7369961455957096,
+            "label":"none"
+         }
+      }
+   }
+}
